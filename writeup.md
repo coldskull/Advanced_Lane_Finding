@@ -31,7 +31,7 @@ The goals / steps of this project are the following:
 [image12]: ./output_images/test3_undistorted.png "Undistorted"
 [image13]: ./output_images/test3_roi.png "ROI"
 [image14]: ./output_images/test3_blur.png "Warp and Blur"
-[image15]: ./output_images/test3_s_AND_l.png "Bitwise AND of L and S"
+[image15]: ./output_images/test3_h_AND_l.png "Bitwise AND of L and S"
 [image16]: ./output_images/test3_sobelx.png "Sobelx"
 [image17]: ./output_images/test3_sobely.png "Sobely"
 [image18]: ./output_images/test3_sobelmag.png "Sobelmag"
