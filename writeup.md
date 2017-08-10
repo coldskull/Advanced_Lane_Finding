@@ -82,53 +82,53 @@ My pipeline had the following operations in this order:
 #### 1. Provide an example of a distortion-corrected image.
 
 To demonstrate this step, I will describe how I apply the distortion correction to acouple of the test images like these:
-![alt text][image1]
-![alt text][image11]
+![alt text][image1] ![alt text][image11]
+
 
 Corresponding undistorted images:
-![alt text][image2]
-![alt text][image12]
+![alt text][image2] ![alt text][image12]
+
 
 
 #### 2. ROI applied
 
 The ROI points were similar to the ones to used to generate the warp/unwarp matrices
 
-![alt text][image3]
-![alt text][image13]
+![alt text][image3] ![alt text][image13]
+
 
 #### 3. Warp and apply Gaussian Blur
 
 The blur helped reduce a lot of interlane noise
-![alt text][image4]
-![alt text][image14]
+![alt text][image4] ![alt text][image14]
+
 
 #### 4. Bitwise AND of L and S channel (thesholded)
-![alt text][image5]
-![alt text][image15]
+![alt text][image5] ![alt text][image15]
+
 
 #### 5. Example of Sobelx, Sobely and Sobel_mag
 
 Sobelx:
-![alt text][image6]
-![alt text][image16]
+![alt text][image6] ![alt text][image16]
+
 
 Sobely:
-![alt text][image7]
-![alt text][image17]
+![alt text][image7] ![alt text][image17]
+
 
 
 
 #### 6. Final cobination of all images
 All images were combined in a specific order using bitwise operators. Based on observing various combination, the final combination
 used is captured in cell 43,44,45 of the IPython notebook
-![alt text][image9]
-![alt text][image19]
+![alt text][image9] ![alt text][image19]
+
 
 #### 7. Histogram from above images
 
-![alt text][image20]
-![alt text][image21]
+![alt text][image20] ![alt text][image21]
+
 
 
 
